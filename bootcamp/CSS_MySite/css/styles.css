@@ -1,35 +1,82 @@
-div {
-  text-align: center;
-}
-
 body {
+  background-color: #f9f7f7;
   margin: 0%;
 }
 
-h1 {
+hr {
+  border-style: None;
+  border-color: gray;
+  border-width: 5px;
   margin-top: 0%;
+  margin-bottom: 0%;
+  width: 40%;
+  align-items: center;
+}
+
+h1 {
+  color: #112d4e;
+  text-align: center;
+}
+
+h2 {
+  color: #0b386f;
+  margin-top: 0%;
+  text-align: center;
+}
+
+p {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 1%;
+}
+
+h3 {
+  color: #0d396f;
+  margin-top: 0%;
+  text-align: center;
+  padding: 1%;
+}
+
+h3:hover {
+  color: black;
+}
+
+/* ------------------------------Class Selector-------------------- */
+.h3_table {
+  font-size: large;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.cl_Image_text:hover {
+  font-weight: bolder;
+}
+
+/* ------------------------------ID Selector-------------------- */
+
+.cl_center {
+  text-align: center;
 }
 
 .top_container {
   background-color: #ddf2fd;
   width: 100%;
-  height: 100px;
 }
 
 .middle_container {
   background-color: #9bbec8;
   width: 100%;
-  height: 100px;
 }
 
 .bottom_container {
-  background-color: #427d9d;
+  background-color: #759ca6;
   width: 100%;
-  height: 100px;
+  text-align: center;
 }
 
 .footer_container {
   background-color: #164863;
   width: 100%;
-  height: 100px;
 }
