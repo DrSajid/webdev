@@ -1,6 +1,7 @@
 body {
   background-color: #f9f7f7;
   margin: 0%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 hr {
@@ -54,10 +55,32 @@ h3:hover {
   font-weight: bolder;
 }
 
+.cloud_top {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  width: 30%;
+  /* opacity: 50%; */
+}
+
+.cloud_btm {
+  position: absolute;
+  left: 150px;
+  bottom: 100px;
+  width: 20%;
+}
+
 /* ------------------------------ID Selector-------------------- */
 
 .cl_center {
   text-align: center;
+}
+
+.top_head {
+  background-color: #ddf2fd;
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
 }
 
 .top_container {
