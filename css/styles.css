@@ -17,12 +17,14 @@ hr {
 h1 {
   color: #112d4e;
   text-align: center;
+  font-size: 3rem;
 }
 
 h2 {
   color: #0b386f;
   margin-top: 0%;
   text-align: center;
+  font-size: 2.5rem;
 }
 
 p {
@@ -36,6 +38,7 @@ h3 {
   margin-top: 0%;
   text-align: center;
   padding: 1%;
+  font-size: 1.5rem;
 }
 
 h3:hover {
@@ -69,6 +72,12 @@ h3:hover {
   bottom: 100px;
   width: 20%;
 }
+.mountains {
+  width: 100%;
+  text-align: center;
+  background-color: #ddf2fd;
+  margin: 0%;
+}
 
 /* ------------------------------ID Selector-------------------- */
 
@@ -89,9 +98,10 @@ h3:hover {
 }
 
 .middle_container {
-  background-color: #9bbec8;
+  background-color: #ddf2fd;
   width: 100%;
 }
+/* #9bbec8; */
 
 .bottom_container {
   background-color: #759ca6;
