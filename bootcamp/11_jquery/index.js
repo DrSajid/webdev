@@ -10,3 +10,11 @@ $(document).ready(function () {
   $("h1").css("padding", "20px");
   $("h1").css("margin", "20px");
 });
+
+$(document).ready(function () {
+  $("#btn2").text("link");
+});
+
+$("#btn2").addClass("bigger");
+
+;
